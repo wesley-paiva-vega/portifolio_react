@@ -17,6 +17,7 @@
   --text-color: #837E9F;
   --bg-cards: #302F3D;
   --bg-techs: #CB92B1;
+  --yellow-color: #E7DE79;
 }
 
 a {
@@ -31,6 +32,7 @@ a:hover {
 body {
   margin: 0;
   background-color: var(--body-bg-color);
+  height: 100vh;
 }
 
 h1 {

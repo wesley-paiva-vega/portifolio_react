@@ -1,12 +1,10 @@
 #root {
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .container-primary {  
   display: flex;
-  background-color: red;
   padding: 20px;
   justify-content: space-between;
   gap: 40px;
@@ -18,8 +16,14 @@
 
 
 .container-primary .container-right {
-  background-color: lightcoral;
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 30px;
 }
+
+.container-right .git_cards_container {
+  display: flex;
+  gap: 30px;
+}
+  

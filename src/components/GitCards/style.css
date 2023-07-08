@@ -1,0 +1,39 @@
+.git-card {
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.git-card header {
+    display: flex;
+    color: var(--text-color);
+    gap: 20px;
+}
+
+.container_icons_footer {
+    display: flex;
+    gap: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ctn_javascript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.ctn_javascript div {
+    width: 10px;
+    height: 10px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+}
