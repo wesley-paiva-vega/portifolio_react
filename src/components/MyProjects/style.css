@@ -1,0 +1,25 @@
+.my-projects-container {
+    background-color: var(--bg-cards);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+    color: var(--text-color);
+}
+
+.my-projects-container button {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+.my-projects-container a {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.my-projects-container a:hover {
+    cursor: pointer;
+    color: white;
+}

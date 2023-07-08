@@ -1,0 +1,6 @@
+.container {
+    background-color: var(--bg-cards);
+    width: 348px;
+    height: 292px;
+    border-radius: 20px;
+}
