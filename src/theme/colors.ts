@@ -11,3 +11,7 @@ export const colors = {
     error: "#F03D3D",
     information: "#E0E0E0"
 }
+
+export const fonts = {
+    font_normal: "'DM Sans', sans-serif",
+}
