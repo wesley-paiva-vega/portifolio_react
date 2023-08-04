@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Main from './components/Main'
+import NameSection from './components/NameSection'
 import GlobalStyle from './styles'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyle />
         <Main>
           <Header />
+          <NameSection />
         </Main>
     </>
   )
