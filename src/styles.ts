@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: ${colors.dark_10};
-    font-family: Open-Sans, Helvetica, Sans-Serif;
+    background-color: ${colors.dark_10};
+    font-family: 'DM Sans', sans-serif;
   }
 `;
  
