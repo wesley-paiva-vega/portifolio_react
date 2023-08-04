@@ -4,7 +4,7 @@ import menuHamburguer from '../../assets/menu_hamburguer.svg'
 const Header = (): JSX.Element => {
     return (
         <Styled.Header>
-            <span>Hello I'am Wesley Snybool</span>
+            <span>Portfólio</span>
             <img src={menuHamburguer} alt="" />
         </Styled.Header>
     )
