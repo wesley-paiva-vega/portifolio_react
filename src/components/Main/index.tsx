@@ -3,6 +3,7 @@ import Header from "../Header";
 import NameSection from "../NameSection";
 import { SectionButtons } from "../../styles";
 import Button from "../Button";
+import Aboult from "../About";
 
 const Main = (): JSX.Element => {
   return (
@@ -23,6 +24,7 @@ const Main = (): JSX.Element => {
           title="Download CV"
         />
       </SectionButtons>
+      <Aboult />
     </Styled.Main>
   );
 };
