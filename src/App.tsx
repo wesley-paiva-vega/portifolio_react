@@ -1,4 +1,4 @@
-import Button from './components/Buttons'
+import Button from './components/Button'
 import Header from './components/Header'
 import Main from './components/Main'
 import NameSection from './components/NameSection'
@@ -13,8 +13,8 @@ function App() {
           <Header />
           <NameSection />
           <SectionButtons>
-            <Button color='dark_10' border='none' background_color="brand_color" title='Download CV' />
-            <Button color='dark_50' border="light" background_color='transparent' title='Download CV' />
+            <Button color="dark_10" borderColor="light" backgroundColor="brand_color" title='Download CV'/>
+            <Button backgroundColor="dark_10" borderColor="none" color="dark_10" title='Download CV'/>
           </SectionButtons>
         </Main>
     </>

@@ -7,6 +7,7 @@ export const Header = styled.header`
     background-color: ${colors.dark_10};
     width: 100%;
     height: 80px;
+    font-weight: 700;
 
     span {
         color: ${colors.dark_50};
