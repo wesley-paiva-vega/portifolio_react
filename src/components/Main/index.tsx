@@ -12,14 +12,14 @@ const Main = (): JSX.Element => {
       <SectionButtons>
         <Button
           color="dark_10"
-          borderColor="light"
+          border="none"
           backgroundColor="brand_color"
           title="Download CV"
         />
         <Button
           backgroundColor="dark_10"
-          borderColor="none"
-          color="dark_10"
+          border="light"
+          color="dark_50"
           title="Download CV"
         />
       </SectionButtons>

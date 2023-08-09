@@ -4,13 +4,13 @@ import { borders, colors } from "../../theme/colors";
 type ButtonProps = {
   title: string;
   color: keyof typeof colors;
-  borderColor: keyof typeof borders;
+  border: keyof typeof borders;
   backgroundColor: keyof typeof colors;
 };
 
 const Button = ({
   title,
-  borderColor,
+  border,
   color,
   backgroundColor,
 }: ButtonProps): JSX.Element => {
@@ -18,7 +18,7 @@ const Button = ({
     <Styled.Button
       $backgroundColor={backgroundColor}
       color={color}
-      $borderColor={borderColor}
+      $border={border}
     >
       {title}
     </Styled.Button>

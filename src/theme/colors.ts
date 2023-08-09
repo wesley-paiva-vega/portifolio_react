@@ -18,6 +18,6 @@ export const fonts = {
 };
 
 export const borders = {
-  light: `1px solid ${colors.dark_40}`,
+  light: `1px solid ${colors.dark_30}`,
   none: "none",
 };
