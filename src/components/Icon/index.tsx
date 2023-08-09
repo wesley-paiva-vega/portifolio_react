@@ -1,27 +1,26 @@
 import * as Styles from "./styles";
 
-import Smile from "../../assets/smile.svg";
 import smile from "../../assets/smile.svg";
-import Mail from "../../assets/mail.svg";
-import Instagram from "../../assets/instagram.svg";
-import Phone from "../../assets/phone.svg";
+import mail from "../../assets/mail.svg";
+import instagram from "../../assets/instagram.svg";
+import phone from "../../assets/phone.svg";
 
-const Icons = {
-  smile: <Smile />,
-  mail: <Mail />,
-  intagram: <Instagram />,
-  phone: <Phone />,
+const icons = {
+  smile: smile,
+  mail: mail,
+  intagram: instagram,
+  phone: phone,
 };
 
 type IconProps = {
-  name: keyof typeof Icons;
-  size: "small";
+  name: keyof typeof icons;
+  size: "small" | "medium" | "large";
 };
 
 const Icon = ({ name }: IconProps): JSX.Element => {
   return (
     <Styles.Wrapper>
-      <img src={smile} alt="" />
+      <img src={icons[name]} alt="Ícone" />
     </Styles.Wrapper>
   );
 };
