@@ -28,7 +28,7 @@ const Main = (): JSX.Element => {
       </SectionButtons>
       <Aboult />
       <Grid>
-        <Icon size="small" name="smile" />
+        <Icon size="xxl" name="smile" />
       </Grid>
     </Styled.Main>
   );

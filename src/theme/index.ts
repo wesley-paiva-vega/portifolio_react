@@ -24,9 +24,21 @@ export const borders = {
 
 export const sizes = {
   icons: {
-    small: {
+    sm: {
+      width: "14px",
+      height: "14px",
+    },
+    lg: {
+      width: "20px",
+      height: "20px",
+    },
+    xl: {
       width: "24px",
       height: "24px",
+    },
+    xxl: {
+      width: "32px",
+      height: "32px",
     },
   },
 };
