@@ -7,7 +7,16 @@ export const Main = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 56px;
+  margin-bottom: 56px;
   flex-direction: column;
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 
   p {
     text-align: center;

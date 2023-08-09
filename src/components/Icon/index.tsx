@@ -9,7 +9,7 @@ import phone from "../../assets/phone.svg";
 const icons = {
   smile: smile,
   mail: mail,
-  intagram: instagram,
+  instagram: instagram,
   phone: phone,
 };
 
