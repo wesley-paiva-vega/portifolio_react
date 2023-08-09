@@ -36,7 +36,8 @@ const Main = (): JSX.Element => {
         <Styled.MainIcon>
           <Icon size="xl" name="mail" />
           <h5>E-mail</h5>
-          <span>wesley.snybool.dev@gmail.com</span>
+          <span>wesley.snybool.dev</span>
+          <span>@gmail.com</span>
         </Styled.MainIcon>{" "}
         <Styled.MainIcon>
           <Icon size="xl" name="instagram" />
