@@ -1,6 +1,6 @@
-import { createGlobalStyle, styled } from 'styled-components';
-import { colors } from './theme/colors';
- 
+import { createGlobalStyle, styled } from "styled-components";
+import { colors } from "./theme/colors";
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -17,5 +17,5 @@ export const SectionButtons = styled.div`
   gap: 20px;
   margin-top: 40px;
 `;
- 
+
 export default GlobalStyle;
