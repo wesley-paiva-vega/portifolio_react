@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../theme/colors";
+import { colors } from "../../theme";
 
 export const Wrapper = styled.div`
   background-color: ${colors.dark_20};

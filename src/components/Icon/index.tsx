@@ -1,4 +1,5 @@
 import * as Styles from "./styles";
+import { sizes } from "../../theme/index";
 
 import smile from "../../assets/smile.svg";
 import mail from "../../assets/mail.svg";
@@ -14,13 +15,13 @@ const icons = {
 
 type IconProps = {
   name: keyof typeof icons;
-  size: "small" | "medium" | "large";
+  size: keyof typeof sizes.icons;
 };
 
-const Icon = ({ name }: IconProps): JSX.Element => {
+const Icon = ({ name, size }: IconProps): JSX.Element => {
   return (
     <Styles.Wrapper>
-      <img src={icons[name]} alt="Ícone" />
+      <img {...sizes.icons[size]} src={icons[name]} alt="Ícone" />
     </Styles.Wrapper>
   );
 };

@@ -21,3 +21,12 @@ export const borders = {
   light: `1px solid ${colors.dark_30}`,
   none: "none",
 };
+
+export const sizes = {
+  icons: {
+    small: {
+      width: "24px",
+      height: "24px",
+    },
+  },
+};

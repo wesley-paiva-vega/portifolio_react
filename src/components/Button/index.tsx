@@ -1,5 +1,5 @@
 import * as Styled from "./styles";
-import { borders, colors } from "../../theme/colors";
+import { borders, colors } from "../../theme";
 
 type ButtonProps = {
   title: string;

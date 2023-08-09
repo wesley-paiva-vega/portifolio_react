@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { borders, colors } from "../../theme/colors";
+import { borders, colors } from "../../theme";
 
 type ButtonProps = {
   color: keyof typeof colors;
