@@ -4,6 +4,8 @@ import NameSection from "../NameSection";
 import { SectionButtons } from "../../styles";
 import Button from "../Button";
 import Aboult from "../About";
+import Grid from "../Grid";
+import Icon from "../Icon";
 
 const Main = (): JSX.Element => {
   return (
@@ -25,6 +27,9 @@ const Main = (): JSX.Element => {
         />
       </SectionButtons>
       <Aboult />
+      <Grid>
+        <Icon size="small" name="smile" />
+      </Grid>
     </Styled.Main>
   );
 };
