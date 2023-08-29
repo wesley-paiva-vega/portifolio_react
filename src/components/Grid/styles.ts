@@ -1,7 +1,13 @@
 import { styled } from "styled-components";
 
-export const Grid = styled.div`
+type GridProps = {
+  row: number;
+  col: number;
+  gap: number;
+};
+
+export const Grid = styled.div<GridProps>`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  grid-template-columns: repeat(${({ col }) => col}, 1fr);
+  grid-gap: ${({ gap }) => `${gap}px`};
 `;

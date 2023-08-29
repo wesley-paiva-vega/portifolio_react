@@ -1,4 +1,4 @@
-import Main from "./components/Main";
+import Main from "./layouts/Main";
 import GlobalStyle from "./styles";
 
 function App() {

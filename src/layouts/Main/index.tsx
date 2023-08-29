@@ -1,13 +1,14 @@
 import * as Styled from "./styles";
-import Header from "../Header";
-import NameSection from "../../layouts/Name";
+import Header from "../../components/Header";
+import NameSection from "../Name";
 import { SectionButtons } from "../../styles";
-import Button from "../Button";
-import About from "../../layouts/About";
-import Grid from "../Grid";
-import Icon from "../Icon";
-import Projects from "../../layouts/Projects/";
-import SectionServices from "../../layouts/Services";
+import Button from "../../components/Button";
+import About from "../About";
+import Grid from "../../components/Grid";
+import Icon from "../../components/Icon";
+import Projects from "../Projects";
+import SectionServices from "../Services";
+import Skils from "../Skils";
 
 const Main = (): JSX.Element => {
   return (
@@ -29,7 +30,7 @@ const Main = (): JSX.Element => {
         />
       </SectionButtons>
       <About />
-      <Grid>
+      <Grid gap={40} col={2} row={2}>
         <Styled.MainIcon>
           <Icon size="xl" name="smile" />
           <h5>My name</h5>
@@ -53,6 +54,7 @@ const Main = (): JSX.Element => {
       </Grid>
       <Projects />
       <SectionServices />
+      <Skils />
     </Styled.Main>
   );
 };

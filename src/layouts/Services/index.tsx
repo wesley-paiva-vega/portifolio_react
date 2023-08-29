@@ -18,7 +18,7 @@ const SectionServices = (): JSX.Element => {
         />
         <CardServices
           icon={<Icon name="smartphone" size="xxl" />}
-          title="Create Mobile Apps"
+          title="Create Mobile"
         />
       </S.SectionCards>
     </S.Main>
