@@ -5,12 +5,18 @@ import smile from "../../assets/smile.svg";
 import mail from "../../assets/mail.svg";
 import instagram from "../../assets/instagram.svg";
 import phone from "../../assets/phone.svg";
+import figma from "../../assets/figma.svg";
+import code from "../../assets/code.svg";
+import smartphone from "../../assets/smartphone.svg";
 
 const icons = {
   smile: smile,
   mail: mail,
   instagram: instagram,
   phone: phone,
+  figma: figma,
+  code: code,
+  smartphone: smartphone,
 };
 
 type IconProps = {
