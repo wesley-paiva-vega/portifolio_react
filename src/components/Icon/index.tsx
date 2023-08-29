@@ -8,6 +8,12 @@ import phone from "../../assets/phone.svg";
 import figma from "../../assets/figma.svg";
 import code from "../../assets/code.svg";
 import smartphone from "../../assets/smartphone.svg";
+import react from "../../assets/react.svg";
+import javascript from "../../assets/javascript.svg";
+import tailwind from "../../assets/tailwind.svg";
+import nextjs from "../../assets/nextjs.svg";
+import html_five from "../../assets/html_five.svg";
+import css3 from "../../assets/css3.svg";
 
 const icons = {
   smile: smile,
@@ -17,6 +23,12 @@ const icons = {
   figma: figma,
   code: code,
   smartphone: smartphone,
+  react: react,
+  tailwind: tailwind,
+  javascript: javascript,
+  nextjs: nextjs,
+  html_five: html_five,
+  css3: css3,
 };
 
 type IconProps = {
