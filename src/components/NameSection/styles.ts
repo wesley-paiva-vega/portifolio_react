@@ -7,6 +7,7 @@ export const NameSectionMain = styled.div`
   justify-content: center;
   flex-direction: column;
   color: ${colors.dark_50};
+  gap: 5px;
 
   h1 {
     font-size: 22px;
