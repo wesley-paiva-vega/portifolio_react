@@ -7,6 +7,7 @@ import Aboult from "../About";
 import Grid from "../Grid";
 import Icon from "../Icon";
 import Projects from "../Projects";
+import SectionServices from "../SectionServices";
 
 const Main = (): JSX.Element => {
   return (
@@ -51,6 +52,7 @@ const Main = (): JSX.Element => {
         </Styled.MainIcon>
       </Grid>
       <Projects />
+      <SectionServices />
     </Styled.Main>
   );
 };

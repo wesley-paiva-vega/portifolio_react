@@ -6,6 +6,9 @@ const Projects = (): JSX.Element => {
     <Styles.Main>
       <h2>Projetos</h2>
       <Card />
+      <Card />
+      <Card />
+      <Card />
     </Styles.Main>
   );
 };

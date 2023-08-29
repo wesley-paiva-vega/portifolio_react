@@ -6,7 +6,7 @@ const Card = () => {
       <Styled.ImageProject></Styled.ImageProject>
       <Styled.FooterCard>
         <Styled.Title>Title Project</Styled.Title>
-        <Styled.SubTitle>Project 01</Styled.SubTitle>
+        <Styled.SubTitle>Tecnologias: HTML, CSS e JS.</Styled.SubTitle>
       </Styled.FooterCard>
     </Styled.Main>
   );

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../theme";
+import { colors, fonts } from "../../theme";
 
 export const Main = styled.div`
   display: flex;
@@ -7,10 +7,11 @@ export const Main = styled.div`
   justify-content: center;
   align-items: center;
   color: ${colors.dark_50};
-  font-family: DM Sans;
+  font-family: ${fonts.font_normal};
   margin-top: 56px;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  gap: 25px;
 `;

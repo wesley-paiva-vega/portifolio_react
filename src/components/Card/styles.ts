@@ -3,23 +3,29 @@ import { colors } from "../../theme";
 
 export const Main = styled.div`
   width: 312px;
-  height: 174px;
-  border: 0.725px solid ${colors.dark_40};
+  border: 0.725px solid ${colors.dark_30};
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 0 0 0;
+  padding: 16.5px 0 0 0;
+  background-color: ${colors.dark_20};
+`;
+
+export const FooterCard = styled.div`
+  display: flex;
+  width: 275px;
+  flex-direction: column;
+  margin-top: 10px;
 `;
 
 export const ImageProject = styled.div`
-  background-color: ${colors.dark_20};
+  background-color: ${colors.dark_10};
   width: 275px;
   height: 100px;
-  margin-bottom: 8px;
+  border: 0.725px solid ${colors.dark_30};
 `;
 
 export const Title = styled.text`
-  font-family: DM Sans;
   font-size: 13.05px;
   font-style: normal;
   font-weight: 500;
@@ -27,12 +33,7 @@ export const Title = styled.text`
 `;
 
 export const SubTitle = styled(Title)`
-  font-size: 8px;
-`;
-
-export const FooterCard = styled.div`
-  display: flex;
-  width: 275px;
-  gap: 10px;
-  flex-direction: column;
+  font-size: 10.15px;
+  color: ${colors.dark_40};
+  margin: 5px 0 15px 0;
 `;

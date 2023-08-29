@@ -7,10 +7,9 @@ export const NameSectionMain = styled.div`
   justify-content: center;
   flex-direction: column;
   color: ${colors.dark_50};
-  gap: 10px;
 
   h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     padding: 0;
     margin: 0;
