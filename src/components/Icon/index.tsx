@@ -39,7 +39,7 @@ type IconProps = {
 const Icon = ({ name, size }: IconProps): JSX.Element => {
   return (
     <Styles.Wrapper>
-      <img {...sizes.icons[size]} src={icons[name]} alt="Ícone" />
+      <img {...sizes.icons[size]} src={icons[name]} alt={`Icon ${name}`} />
     </Styles.Wrapper>
   );
 };
