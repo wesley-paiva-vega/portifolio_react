@@ -7,4 +7,5 @@ export const Main = styled.div`
   justify-content: center;
   flex-direction: column;
   color: ${colors.dark_50};
+  margin-bottom: 40px;
 `;

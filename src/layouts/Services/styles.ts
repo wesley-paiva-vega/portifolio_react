@@ -5,6 +5,10 @@ export const Main = styled.div`
   color: ${colors.dark_50};
   text-align: center;
   margin: 56px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export const SectionCards = styled.div`
