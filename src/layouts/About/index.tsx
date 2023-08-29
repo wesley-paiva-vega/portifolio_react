@@ -1,6 +1,6 @@
 import * as Styles from "./styles";
 
-const Aboult = () => {
+const About = () => {
   return (
     <Styles.Main>
       <h2>Sobre mim</h2>
@@ -12,4 +12,4 @@ const Aboult = () => {
   );
 };
 
-export default Aboult;
+export default About;

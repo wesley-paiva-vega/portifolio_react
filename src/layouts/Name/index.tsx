@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 
-const NameSection = (): JSX.Element => {
+const Name = (): JSX.Element => {
   return (
     <Styled.NameSectionMain>
       <h1>{`Hello I'am Wesley Snybool :)`}</h1>
@@ -9,4 +9,4 @@ const NameSection = (): JSX.Element => {
   );
 };
 
-export default NameSection;
+export default Name;

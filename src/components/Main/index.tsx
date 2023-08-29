@@ -1,13 +1,13 @@
 import * as Styled from "./styles";
 import Header from "../Header";
-import NameSection from "../NameSection";
+import NameSection from "../../layouts/Name";
 import { SectionButtons } from "../../styles";
 import Button from "../Button";
-import Aboult from "../About";
+import About from "../../layouts/About";
 import Grid from "../Grid";
 import Icon from "../Icon";
-import Projects from "../Projects";
-import SectionServices from "../SectionServices";
+import Projects from "../../layouts/Projects/";
+import SectionServices from "../../layouts/Services";
 
 const Main = (): JSX.Element => {
   return (
@@ -28,7 +28,7 @@ const Main = (): JSX.Element => {
           title="Download CV"
         />
       </SectionButtons>
-      <Aboult />
+      <About />
       <Grid>
         <Styled.MainIcon>
           <Icon size="xl" name="smile" />
