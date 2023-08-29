@@ -1,11 +1,17 @@
+import Icon from "../Icon";
 import * as S from "./styles";
 
-const SectionCardServices = (): JSX.Element => {
+type CardServiceProps = {
+  title: string;
+};
+
+const CardServices = ({ title }: CardServiceProps): JSX.Element => {
   return (
     <S.Main>
-      <span>asdasds</span>
+      <Icon name="phone" size="xxl" />
+      <h5>{title}</h5>
     </S.Main>
   );
 };
 
-export default SectionCardServices;
+export default CardServices;

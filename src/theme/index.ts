@@ -19,6 +19,7 @@ export const fonts = {
 
 export const borders = {
   light: `1px solid ${colors.dark_30}`,
+  green: `3px solid ${colors.brand_color}`,
   none: "none",
 };
 

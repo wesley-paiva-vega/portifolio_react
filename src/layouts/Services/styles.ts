@@ -6,3 +6,9 @@ export const Main = styled.div`
   text-align: center;
   margin: 56px 0;
 `;
+
+export const SectionCards = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+`;
