@@ -10,12 +10,12 @@ const Skils = (): JSX.Element => {
       <h1>Minhas Skils</h1>
 
       <Grid gap={15} row={2} col={3}>
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
-        <CardSkils icon={<Icon name="instagram" size="xxl" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
+        <CardSkils icon={<Icon name="instagram" size="huge" />} />
       </Grid>
     </S.Main>
   );

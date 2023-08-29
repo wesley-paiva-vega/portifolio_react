@@ -41,5 +41,13 @@ export const sizes = {
       width: "32px",
       height: "32px",
     },
+    huge: {
+      width: "48px",
+      height: "48px",
+    },
+    giant: {
+      width: "64px",
+      height: "64px",
+    },
   },
 };
