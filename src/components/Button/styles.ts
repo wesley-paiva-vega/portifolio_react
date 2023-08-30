@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { borders, colors } from "../../theme";
+import { borders, breakpoints, colors } from "../../theme";
 
 type ButtonProps = {
   color: keyof typeof colors;
@@ -21,4 +21,8 @@ export const Button = styled.button<
   letter-spacing: 0em;
   width: 170px;
   padding: 10px 28px;
+
+  @media ${breakpoints.tablet} {
+    width: 142px;
+  }
 `;

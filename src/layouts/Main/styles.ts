@@ -1,16 +1,37 @@
 import { styled } from "styled-components";
-import { colors } from "../../theme";
+import { breakpoints, colors } from "../../theme";
 
 export const Main = styled.div`
   padding: 24px;
+
+  @media ${breakpoints.tablet} {
+    padding: 48px;
+  }
+`;
+
+export const ContainerNameAndButtons = styled.div`
+  @media ${breakpoints.tablet} {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const Wrapper = styled.div`
-  background-color: red;
+  @media ${breakpoints.tablet} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media ${breakpoints.mobileL} {
+  }
 `;
 
 export const Avatar = styled.div`
-  display: none;
+  @media ${breakpoints.mobileL} {
+    display: none;
+  }
 `;
 
 export const MainIcon = styled.div`

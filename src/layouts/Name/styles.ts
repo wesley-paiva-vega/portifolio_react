@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { colors } from "../../theme";
+import { breakpoints, colors } from "../../theme";
 
 export const NameSectionMain = styled.div`
   display: flex;
@@ -8,6 +8,10 @@ export const NameSectionMain = styled.div`
   flex-direction: column;
   color: ${colors.dark_50};
   gap: 5px;
+
+  @media ${breakpoints.tablet} {
+    justify-content: flex-start;
+  }
 
   h1 {
     font-size: 22px;

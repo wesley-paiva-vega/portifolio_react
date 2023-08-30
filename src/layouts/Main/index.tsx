@@ -18,21 +18,23 @@ const Main = (): JSX.Element => {
       <S.Main>
         <Header />
         <S.Wrapper>
-          <NameSection />
-          <SectionButtons>
-            <Button
-              color="dark_10"
-              border="none"
-              backgroundColor="brand_color"
-              title="Download CV"
-            />
-            <Button
-              backgroundColor="dark_10"
-              border="light"
-              color="dark_50"
-              title="Download CV"
-            />
-          </SectionButtons>
+          <S.ContainerNameAndButtons>
+            <NameSection />
+            <SectionButtons>
+              <Button
+                color="dark_10"
+                border="none"
+                backgroundColor="brand_color"
+                title="Download CV"
+              />
+              <Button
+                backgroundColor="dark_10"
+                border="light"
+                color="dark_50"
+                title="Download CV"
+              />
+            </SectionButtons>
+          </S.ContainerNameAndButtons>
           <S.Avatar>
             <img src={avatar} alt="icon Avatar" />
           </S.Avatar>
