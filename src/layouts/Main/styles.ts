@@ -4,7 +4,7 @@ import Grid from "../../components/Grid";
 
 export const Main = styled.div`
   padding: 24px;
-  max-width: 1400px;
+  max-width: 1250px;
   margin: 0 auto;
 
   @media ${breakpoints.tablet} {
@@ -37,6 +37,12 @@ export const Wrapper = styled.div`
 export const Avatar = styled.div`
   @media ${breakpoints.mobileL} {
     display: none;
+  }
+
+  @media ${breakpoints.laptopL} {
+    img {
+      width: 250px;
+    }
   }
 `;
 

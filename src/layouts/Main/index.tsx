@@ -4,7 +4,6 @@ import NameSection from "../Name";
 import { SectionButtons } from "../../styles";
 import Button from "../../components/Button";
 import About from "../About";
-import Grid from "../../components/Grid";
 import Icon from "../../components/Icon";
 import Projects from "../Projects";
 import SectionServices from "../Services";
