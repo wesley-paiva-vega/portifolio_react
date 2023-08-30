@@ -40,7 +40,7 @@ const Main = (): JSX.Element => {
           </S.Avatar>
         </S.Wrapper>
         <About />
-        <Grid gap={40} col={2} row={2}>
+        <S.IconsGrid gap={40} col={2} row={2}>
           <S.MainIcon>
             <Icon size="xl" name="smile" />
             <h5>My name</h5>
@@ -61,7 +61,7 @@ const Main = (): JSX.Element => {
             <h5>My phone</h5>
             <span>11 996931399</span>
           </S.MainIcon>
-        </Grid>
+        </S.IconsGrid>
         <Projects />
         <SectionServices />
         <Skils />

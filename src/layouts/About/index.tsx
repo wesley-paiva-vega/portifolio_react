@@ -3,10 +3,11 @@ import * as Styles from "./styles";
 const About = () => {
   return (
     <Styles.Main>
-      <h2>Sobre mim</h2>
+      <h2>About me</h2>
       <p>
-        I'am a frontend developer with solid experience in Reactjs, Typescript,
-        Styled-Components, Story-Book, Design System, Microfrontends end others.
+        I'am a frontend developer with solid experience in Reactjs, Nextjs,
+        Sveltejs, Typescript, Styled-Components, Stitchesjs, Antdesign, Saas,
+        MaterialUI Story-Book, Design System, Microfrontends end others.
       </p>
     </Styles.Main>
   );

@@ -12,7 +12,7 @@ export const Main = styled.div`
 
   @media ${breakpoints.laptopL} {
     width: 750px;
-    margin: 100px auto;
+    margin: 40px auto 120px;
   }
 
   h2 {

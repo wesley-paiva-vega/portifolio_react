@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { breakpoints, colors } from "../../theme";
+import Grid from "../../components/Grid";
 
 export const Main = styled.div`
   padding: 24px;
@@ -36,6 +37,12 @@ export const Wrapper = styled.div`
 export const Avatar = styled.div`
   @media ${breakpoints.mobileL} {
     display: none;
+  }
+`;
+
+export const IconsGrid = styled(Grid)`
+  @media ${breakpoints.laptopL} {
+    grid-template-columns: repeat(4, 1fr);
   }
 `;
 
