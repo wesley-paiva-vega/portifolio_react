@@ -5,6 +5,14 @@ export const Main = styled.div`
   padding: 24px;
 `;
 
+export const Wrapper = styled.div`
+  background-color: red;
+`;
+
+export const Avatar = styled.div`
+  display: none;
+`;
+
 export const MainIcon = styled.div`
   display: flex;
   gap: 8px;
