@@ -21,6 +21,11 @@ export const Button = styled.button<
   letter-spacing: 0em;
   width: 170px;
   padding: 10px 28px;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.85);
+  }
 
   @media ${breakpoints.tablet} {
     width: 142px;

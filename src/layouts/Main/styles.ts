@@ -49,6 +49,8 @@ export const Avatar = styled.div`
 export const IconsGrid = styled(Grid)`
   @media ${breakpoints.laptopL} {
     grid-template-columns: repeat(4, 1fr);
+    width: 850px;
+    margin: 0 auto;
   }
 `;
 

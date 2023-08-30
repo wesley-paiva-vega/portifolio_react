@@ -11,8 +11,8 @@ export const Main = styled.div`
   flex-direction: column;
 
   @media ${breakpoints.laptopL} {
-    width: 750px;
-    margin: 40px auto 120px;
+    width: 550px;
+    margin: 130px auto 120px;
   }
 
   h2 {
