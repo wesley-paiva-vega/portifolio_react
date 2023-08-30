@@ -3,9 +3,14 @@ import { breakpoints, colors } from "../../theme";
 
 export const Main = styled.div`
   padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
 
   @media ${breakpoints.tablet} {
     padding: 48px;
+  }
+  @media ${breakpoints.laptopL} {
+    padding: 48px 150px;
   }
 `;
 

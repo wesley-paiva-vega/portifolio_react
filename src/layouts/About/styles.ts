@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { colors } from "../../theme";
+import { breakpoints, colors } from "../../theme";
 
 export const Main = styled.div`
   color: ${colors.dark_50};
@@ -9,6 +9,11 @@ export const Main = styled.div`
   margin-top: 60px;
   margin-bottom: 56px;
   flex-direction: column;
+
+  @media ${breakpoints.laptopL} {
+    width: 750px;
+    margin: 100px auto;
+  }
 
   h2 {
     margin: 0;
