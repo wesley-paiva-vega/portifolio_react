@@ -1,15 +1,19 @@
 import Card from "../../components/Card";
-import * as Styles from "./styles";
+import * as S from "./styles";
 
 const Projects = (): JSX.Element => {
   return (
-    <Styles.Main>
+    <S.Main>
       <h2>Projetos</h2>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </Styles.Main>
+      <S.GridCardsProjects gap={40} col={1} row={6}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </S.GridCardsProjects>
+    </S.Main>
   );
 };
 

@@ -31,5 +31,10 @@ export const Main = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+
+    @media ${breakpoints.laptopL} {
+      font-size: 20px;
+      line-height: 32px;
+    }
   }
 `;

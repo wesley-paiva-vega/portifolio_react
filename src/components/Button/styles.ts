@@ -29,5 +29,6 @@ export const Button = styled.button<
 
   @media ${breakpoints.tablet} {
     width: 142px;
+    height: 42px;
   }
 `;
