@@ -14,6 +14,9 @@ import tailwind from "../../assets/tailwind.svg";
 import nextjs from "../../assets/nextjs.svg";
 import html_five from "../../assets/html_five.svg";
 import css3 from "../../assets/css3.svg";
+import nestjs from "../../assets/nestjs.svg";
+import styled_components from "../../assets/styled_components.svg";
+import typescript from "../../assets/typescript.svg";
 
 const icons = {
   smile: smile,
@@ -29,6 +32,9 @@ const icons = {
   nextjs: nextjs,
   html_five: html_five,
   css3: css3,
+  nestjs: nestjs,
+  styled_components: styled_components,
+  typescript: typescript,
 };
 
 type IconProps = {
