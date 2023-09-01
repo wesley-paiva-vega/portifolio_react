@@ -7,7 +7,7 @@ const SectionServices = (): JSX.Element => {
     <S.Main>
       <h1>Services</h1>
 
-      <S.SectionCards>
+      <S.SectionCardsGrid gap={30} col={1} row={3}>
         <CardServices
           icon={<Icon name="code" size="xxl" />}
           title="Create WEB Plataforms"
@@ -20,7 +20,11 @@ const SectionServices = (): JSX.Element => {
           icon={<Icon name="smartphone" size="xxl" />}
           title="Create Mobile"
         />
-      </S.SectionCards>
+        <CardServices
+          icon={<Icon name="smartphone" size="xxl" />}
+          title="Create Mobile"
+        />
+      </S.SectionCardsGrid>
     </S.Main>
   );
 };

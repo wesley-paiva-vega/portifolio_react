@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
-import { colors } from "../../theme";
+import { breakpoints, colors } from "../../theme";
+import Grid from "../../components/Grid";
 
 export const Main = styled.div`
   color: ${colors.dark_50};
@@ -11,8 +12,9 @@ export const Main = styled.div`
   flex-direction: column;
 `;
 
-export const SectionCards = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+export const SectionCardsGrid = styled(Grid)`
+  @media ${breakpoints.tablet} {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat((2, 1fr));
+  }
 `;
