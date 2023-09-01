@@ -15,4 +15,8 @@ export const GridCardSkils = styled(Grid)`
   @media ${breakpoints.tablet} {
     grid-template-columns: repeat(7, 1fr);
   }
+
+  @media ${breakpoints.laptop} {
+    grid-template-columns: repeat(9, 1fr);
+  }
 `;
