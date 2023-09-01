@@ -36,13 +36,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Avatar = styled.div`
-  @media ${breakpoints.mobileL} {
-    display: none;
-  }
-
-  @media ${breakpoints.tablet} {
-    display: none;
-  }
+  display: none;
 
   @media ${breakpoints.laptop} {
     display: flex;
