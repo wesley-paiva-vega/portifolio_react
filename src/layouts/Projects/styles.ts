@@ -30,5 +30,6 @@ export const GridCardsProjects = styled(Grid)`
   @media ${breakpoints.laptop} {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
   }
 `;
