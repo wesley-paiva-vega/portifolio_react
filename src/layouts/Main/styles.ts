@@ -26,11 +26,12 @@ export const ContainerNameAndButtons = styled.div`
 export const Wrapper = styled.div`
   @media ${breakpoints.tablet} {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
-  @media ${breakpoints.mobileL} {
+  @media ${breakpoints.laptop} {
+    justify-content: space-between;
   }
 `;
 
@@ -39,7 +40,12 @@ export const Avatar = styled.div`
     display: none;
   }
 
-  @media ${breakpoints.laptopL} {
+  @media ${breakpoints.tablet} {
+    display: none;
+  }
+
+  @media ${breakpoints.laptop} {
+    display: flex;
     img {
       width: 250px;
     }
