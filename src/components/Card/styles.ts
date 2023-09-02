@@ -9,6 +9,13 @@ export const Main = styled.div`
   align-items: center;
   padding: 16.5px 0 0 0;
   background-color: ${colors.dark_20};
+
+  &:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+    scale: calc(1.02);
+    transition: all ease-in-out 0.5s;
+  }
 `;
 
 export const FooterCard = styled.div`

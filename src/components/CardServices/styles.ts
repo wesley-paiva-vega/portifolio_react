@@ -13,6 +13,13 @@ export const Main = styled.div`
   border-bottom: ${borders.green};
   gap: 10px;
 
+  &:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+    scale: calc(1.02);
+    transition: all ease-in-out 0.5s;
+  }
+
   h5 {
     margin: 0;
     padding: 0;
