@@ -8,8 +8,18 @@ type GridProps = {
   gap: number;
 };
 
-const Grid = ({ children, ...props }: GridProps): JSX.Element => {
-  return <Styles.Grid {...props}>{children}</Styles.Grid>;
+const Grid = ({
+  children,
+  col,
+  row,
+  gap,
+  ...props
+}: GridProps): JSX.Element => {
+  return (
+    <Styles.Grid $col={col} $row={row} $gap={gap} {...props}>
+      {children}
+    </Styles.Grid>
+  );
 };
 
 export default Grid;

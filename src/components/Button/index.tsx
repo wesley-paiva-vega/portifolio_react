@@ -6,6 +6,7 @@ type ButtonProps = {
   color: keyof typeof colors;
   border: keyof typeof borders;
   backgroundColor: keyof typeof colors;
+  onClick?: () => void;
 };
 
 const Button = ({

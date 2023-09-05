@@ -46,6 +46,11 @@ export const breakpoints = {
 
 export const sizes = {
   icons: {
+    /**
+     * @property {string} sm - 14px
+     * @property {string} sm - 14px
+     *
+     */
     sm: {
       width: "14px",
       height: "14px",

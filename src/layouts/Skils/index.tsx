@@ -5,10 +5,10 @@ import * as S from "./styles";
 const Skils = (): JSX.Element => {
   return (
     <S.Main>
-      <h1>Minhas Skils</h1>
+      <h1>My Skils</h1>
 
       <S.GridCardSkils gap={15} row={2} col={3}>
-        <CardSkils icon={<Icon name="html_five" size="huge" />} />
+        <CardSkils icon={<Icon name="html_five" size="giant" />} />
         <CardSkils icon={<Icon name="css3" size="huge" />} />
         <CardSkils icon={<Icon name="javascript" size="huge" />} />
         <CardSkils icon={<Icon name="tailwind" size="huge" />} />

@@ -1,12 +1,26 @@
 import * as Styled from "./styles";
 
-const Card = () => {
+type CardProps = {
+  title: string;
+  link?: string;
+  urlBackGround?: string;
+  subTitle?: string;
+};
+
+const Card = ({
+  title,
+  link,
+  urlBackGround,
+  subTitle,
+}: CardProps): JSX.Element => {
   return (
     <Styled.Main>
-      <Styled.ImageProject></Styled.ImageProject>
+      <a href={link}>
+        <Styled.ImageProject $urlBackGround={urlBackGround} />
+      </a>
       <Styled.FooterCard>
-        <Styled.Title>Title Project</Styled.Title>
-        <Styled.SubTitle>Tecnologias: HTML, CSS e JS.</Styled.SubTitle>
+        <Styled.Title>{title}</Styled.Title>
+        <Styled.SubTitle>{subTitle}</Styled.SubTitle>
       </Styled.FooterCard>
     </Styled.Main>
   );

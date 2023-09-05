@@ -10,8 +10,20 @@ import SectionServices from "../Services";
 import Skils from "../Skils";
 import Footer from "../../layouts/Footer";
 import avatar from "../../assets/avatar.svg";
+import cv from "../../assets/Wesley de Sousa Paiva 2023.pdf";
 
 const Main = (): JSX.Element => {
+  const handleDonwLoad = () => {
+    const link_pdf = document.createElement("a");
+
+    link_pdf.href = cv;
+    link_pdf.download = "Wesley de Sousa Paiva 2023.pdf";
+
+    console.log(link_pdf);
+
+    link_pdf.click();
+  };
+
   return (
     <>
       <S.Main>
@@ -25,6 +37,7 @@ const Main = (): JSX.Element => {
                 border="none"
                 backgroundColor="brand_color"
                 title="Download CV"
+                onClick={() => handleDonwLoad()}
               />
               <Button
                 backgroundColor="dark_10"
@@ -41,7 +54,7 @@ const Main = (): JSX.Element => {
         <About />
         <S.IconsGrid gap={40} col={2} row={2}>
           <S.MainIcon>
-            <Icon size="xl" name="smile" />
+            <Icon size="sm" name="smile" />
             <h5>My name</h5>
             <span>Wesley Snybool</span>
           </S.MainIcon>

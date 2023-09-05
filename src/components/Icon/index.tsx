@@ -37,10 +37,10 @@ const icons = {
   typescript: typescript,
 };
 
-type IconProps = {
+interface IconProps {
   name: keyof typeof icons;
   size: keyof typeof sizes.icons;
-};
+}
 
 const Icon = ({ name, size }: IconProps): JSX.Element => {
   return (
