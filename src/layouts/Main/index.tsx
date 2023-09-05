@@ -37,13 +37,14 @@ const Main = (): JSX.Element => {
                 border="none"
                 backgroundColor="brand_color"
                 title="Download CV"
-                onClick={() => handleDonwLoad()}
+                onClick={handleDonwLoad}
               />
               <Button
                 backgroundColor="dark_10"
                 border="light"
                 color="dark_50"
-                title="Download CV"
+                title="Entrar em Contato"
+                onClick={() => alert("Bla")}
               />
             </SectionButtons>
           </S.ContainerNameAndButtons>

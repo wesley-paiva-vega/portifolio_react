@@ -6,7 +6,7 @@ type ButtonProps = {
   color: keyof typeof colors;
   border: keyof typeof borders;
   backgroundColor: keyof typeof colors;
-  onClick?: () => void;
+  onClick: () => void;
 };
 
 const Button = ({
@@ -14,12 +14,14 @@ const Button = ({
   border,
   color,
   backgroundColor,
+  onClick,
 }: ButtonProps): JSX.Element => {
   return (
     <Styled.Button
       $backgroundColor={backgroundColor}
       color={color}
       $border={border}
+      onClick={onClick}
     >
       {title}
     </Styled.Button>

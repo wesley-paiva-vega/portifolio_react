@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../theme";
 
-import fflush from "../../assets/fflush.png";
-
 export const Main = styled.div`
   width: 312px;
   border: 0.725px solid ${colors.dark_30};
