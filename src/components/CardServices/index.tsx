@@ -10,7 +10,6 @@ const CardServices = ({ title, icon }: CardServiceProps): JSX.Element => {
   return (
     <S.Main>
       {icon}
-
       <h5>{title}</h5>
     </S.Main>
   );

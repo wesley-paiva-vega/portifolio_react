@@ -61,6 +61,10 @@ export const MainIcon = styled.div`
   justify-content: center;
   align-items: center;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   h5 {
     margin: 0;
     color: ${colors.dark_50};

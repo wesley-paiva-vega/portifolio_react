@@ -18,11 +18,19 @@ const SectionServices = (): JSX.Element => {
         />
         <CardServices
           icon={<Icon name="smartphone" size="xxl" />}
-          title="Create Mobile"
+          title="Create Landing Pages"
         />
         <CardServices
           icon={<Icon name="smartphone" size="xxl" />}
           title="Create Mobile"
+        />
+        <CardServices
+          icon={<Icon name="code" size="xxl" />}
+          title="Create Micro Services"
+        />
+        <CardServices
+          icon={<Icon name="code" size="xxl" />}
+          title="Create Front End"
         />
       </S.SectionCardsGrid>
     </S.Main>

@@ -17,9 +17,8 @@ const Main = (): JSX.Element => {
     const link_pdf = document.createElement("a");
 
     link_pdf.href = cv;
-    link_pdf.download = "Wesley de Sousa Paiva 2023.pdf";
 
-    console.log(link_pdf);
+    link_pdf.download = "Wesley de Sousa Paiva 2023.pdf";
 
     link_pdf.click();
   };
@@ -55,7 +54,7 @@ const Main = (): JSX.Element => {
         <About />
         <S.IconsGrid gap={40} col={2} row={2}>
           <S.MainIcon>
-            <Icon size="sm" name="smile" />
+            <Icon size="xl" name="smile" />
             <h5>My name</h5>
             <span>Wesley Snybool</span>
           </S.MainIcon>
