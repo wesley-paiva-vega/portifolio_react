@@ -42,7 +42,7 @@ const Main = (): JSX.Element => {
                 backgroundColor="dark_10"
                 border="light"
                 color="dark_50"
-                title="Entrar em Contato"
+                title="Contac me"
                 onClick={() => alert("Bla")}
               />
             </SectionButtons>
