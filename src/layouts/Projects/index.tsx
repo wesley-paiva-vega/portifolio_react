@@ -6,7 +6,7 @@ import fflushSite from "../../assets/fflush.png";
 const Projects = (): JSX.Element => {
   return (
     <S.Main>
-      <h2>Projetos</h2>
+      <h2>Projects</h2>
       <S.GridCardsProjects gap={40} col={1} row={6}>
         <Card
           title="FFLush Tech Site"
