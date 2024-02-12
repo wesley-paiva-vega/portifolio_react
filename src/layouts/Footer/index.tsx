@@ -4,7 +4,7 @@ const Footer = (): JSX.Element => {
   return (
     <S.Wrapper>
       <p>
-        Powered by <a>Iuri Silva</a>
+        Powered by <a>Yure Silva</a>
       </p>
     </S.Wrapper>
   );
